@@ -1,0 +1,100 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Karla", serif;
+    background-color: hsl(204, 43%, 93%);
+    font-size: 16px;
+}
+
+.mainDiv-container{
+    margin: 50px 30px 50px 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px grey;
+}
+
+.allArticle{
+    padding: 25px 20px 25px 20px;
+}
+
+.text-colorWhite{
+    color: hsl(224, 100%, 100%);
+}
+
+.article1{
+    background-color: white;
+    border-radius: 5px 5px 0 0;
+}
+
+.article2{
+    min-height: 250px;
+    background-color: hsl(179, 62%, 42%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0 0 0 5px;
+}
+
+.article3{
+    background-color: hsl(179, 62%, 48%);
+    border-radius: 0 0 5px 0;
+}
+
+.btn{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    box-shadow: 1px 1px 5px black;
+}
+
+.h1Color{
+    color: hsl(179, 62%, 43%);
+}
+
+.h2Color{
+    color: hsl(71, 73%, 54%);
+}
+
+.textColour{
+    color: hsl(218, 22%, 67%);
+}
+
+.dipInline{
+    display: inline;
+}
+
+.textColour-grey{
+    color: hsl(0, 1%, 86%);
+}
+
+.fontSize-big{
+    font-size: 30px;
+    display: inline;
+}
+
+@media (min-width: 800px) {
+    .mainDiv-container{
+        max-width: 700px;
+        margin: 100px auto;
+    }
+
+    .gridContainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .grid-item1{
+        grid-column: -1/1;
+    }
+
+}
